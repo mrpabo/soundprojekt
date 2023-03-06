@@ -15,7 +15,7 @@ const Keyboard = () => {
             startNote: "C4",
             whiteKeyColor: "rgb(28,198,186)",
             blackKeyColor: "rgb(10,70,67)",
-            activeColor: "rgb(166,49,172)",
+            activeColor: "rgb(100,49,172)",
             bordercolor: "white"
 
 
