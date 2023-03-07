@@ -16,7 +16,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className='center'>SOUNDPROJEKT</h1>
       <Osc1 />
       <ADSR />
       <Filter />

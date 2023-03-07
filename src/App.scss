@@ -1,33 +1,29 @@
-.center {
-  transform: translateX(-50);
-  text-align: center;
-}
 .control {
-  background: rgb(90, 28, 176);
-  margin: 3 rem;
+  background: black;
+  margin: 1 rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border: white 1px solid;
+  border: rgb(48, 19, 235) 1px solid;
   border-radius: 25px;
-  margin-top: 50px;
   width: 100%;
 
   h3 {
     width: 100%;
     text-align: center;
+    color: rgb(16, 98, 228);
   }
   input {
-    width: 20rem;
+    width: 35rem;
   }
   .active {
-    background: rgb(21, 207, 11);
+    background: rgb(37, 170, 247);
   }
   button {
     font-size: 2 rem;
-    padding: 0, 5rem;
-    margin: 0, 5rem;
+    padding: 0, 2rem;
+    margin: 0, 2rem;
     transition: all0, 1s ease;
     cursor: pointer;
     margin: 10px;
@@ -35,22 +31,25 @@
   }
 }
 .keyboard {
-  margin-top: 3%;
+  margin-top: 4%;
   margin-left: 50%;
   transform: translateX(-50%);
   width: 500px;
 }
 
 .drumMachine {
-  background: rgb(45, 4, 103);
+  background: black;
   margin: 1 rem;
-
+  text-align: center;
   justify-content: space-around;
   align-items: center;
-  border: white 1px solid;
+  border: rgb(48, 19, 235) 1px solid;
   border-radius: 25px;
   margin-top: 50px;
   width: 100%;
+}
+h4 {
+  color: rgb(16, 98, 228);
 }
 
 .App {
